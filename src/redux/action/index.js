@@ -6,3 +6,16 @@ export const add_todo = (value)=>{
         payload:value,
     }
 }
+export const com_todo = (id)=>{
+    return{
+        type:typeAction.COM_TODO,
+        payload:id,
+    }
+}
+
+export const detele_todo = (id)=>{
+        return{
+            type:typeAction.DETELE_TODO,
+            payload:id,
+        }
+    }
